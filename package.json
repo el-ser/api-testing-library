@@ -1,7 +1,10 @@
 {
-  "name": "api-testing-library",
+  "name": "@el-ser/api-testing-library",
   "version": "1.0.0",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": "https://github.com/el-ser/api-testing-library.git",
   "author": "Macky Bugarin <manuel.bugarin@paymaya.com>",
   "license": "MIT",
