@@ -1,0 +1,11 @@
+{
+  "name": "api-testing-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/el-ser/api-testing-library.git",
+  "author": "Macky Bugarin <manuel.bugarin@paymaya.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pactum": "^3.1.4"
+  }
+}
