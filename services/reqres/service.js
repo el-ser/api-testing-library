@@ -1,9 +1,9 @@
 const packages = require("../../utils/packages");
 
 class Reqres {
-  constructor(baseUrl, package) {
+  constructor(baseUrl, packageName) {
     this.baseUrl = baseUrl;
-    this.sendRequest = packages[package].sendRequest;
+    this.sendRequest = packages[packageName].sendRequest;
     this.payload = {};
   }
 
